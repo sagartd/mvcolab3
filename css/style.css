@@ -50,6 +50,7 @@ select {
 
 #radio{
   text-align: left;
+  display: inline;
 }
 
 /* @media (max-width: 600px) {
