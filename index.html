@@ -14,14 +14,32 @@
       </p>
       <div class="formdiv">
         <form action="" id="survey-form">
-          <label for="name">Name</label>
+          <label for="name" id="name-label">Name</label>
           <input type="text" id="name" required placeholder="Enter your name" />
 
-          <label for="email">Email</label>
-          <input type="email" id="email" required placeholder="Enter your Email" />
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="Enter your Email"
+          />
 
-          <label for="age">Age (optional)</label>
-          <input type="text" id="age"  placeholder="Age" />
+          <label for="age" id="number-label">Age (optional)</label>
+          <input
+            type="number"
+            id="number"
+            placeholder="Age"
+            min="18"
+            max="60"
+          />
+          <label for="dropdown"
+            >Which option best describes your current role?</label
+          >
+          <select name="" id="dropdown">
+            <option value="">Current Role</option>
+            <option value="">Student</option>
+          </select>
         </form>
       </div>
     </div>
