@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  /* background-image: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 50%; */
 }
 
 .main {
@@ -8,6 +12,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-color: blue; */
+  /* opacity: 50%; */
 }
 
 .formdiv {
