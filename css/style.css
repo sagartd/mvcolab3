@@ -8,53 +8,46 @@ body {
 }
 
 .main {
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 0 2rem; */
+  margin-bottom: 50px;
   /* background-color: blue; */
   /* opacity: 50%; */
 }
 
-.formdiv {
-  padding: 50px;
-  background-color: aqua;
-  border-radius: 5px;
+label {
+  color: rgb(94, 94, 94);
+  font-weight: 600;
 }
 
-#survey-form {
+form {
+  padding: 2rem;
   display: flex;
+  width: 50%;
   flex-direction: column;
   gap: 1rem;
+  border-radius: 10px;
+  background-color: aqua;
 }
 
-input {
-  padding: 10px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  width: 25rem;
-}
-
+input,
 select {
-  padding: 10px;
-  outline: none;
-  border: none;
+  padding: 1rem;
   border-radius: 5px;
+  border: none;
+  outline: none;
 }
 
-#title {
-  text-align: center;
+input[type="radio"],
+[type="checkbox"] {
+  transform: scale(1.5);
 }
 
-#radio{
-  text-align: left;
-  display: inline;
-}
-
-/* @media (max-width: 600px) {
-  input {
-    width: 100%;
+@media (max-width: 600px) {
+  form {
+    width: 80%;
   }
-} */
+}
